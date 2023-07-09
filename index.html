@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto X-men - Semana do zero ao programador contratado</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/logo.svg" alt="Logo x-men">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">Selecione um personagem</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="ciclope" data-name="ciclope" data-description="bla bla bla">
+                    <img src="./src/imagens/card-ciclope.jpg" alt="Personagem ciclope">
+                </li>
+                <li class="personagem" id="jean-grey" data-name="Jean Grey" data-description="bla bla bla">
+                    <img src="./src/imagens/card-jean-grey.jpg" alt="Personagem jean grey" data-description="bla bla bla">
+                </li>
+
+                <li class="personagem" id="lince-negra" data-name="lince-negra" data-description="bla bla bla">
+                    <img src="./src/imagens/card-lince-negra.jpg" alt="Personagem lince negra">
+                </li>
+
+                <li class="personagem" id="tempestade" data-name="tempestade" data-description="bla bla bla">
+                    <img src="./src/imagens/card-tempestade.jpg" alt="Personagem tempestade">
+                </li>
+
+                <li class="personagem" id="vampira" data-name="vampira" data-description="bla bla bla">
+                    <img src="./src/imagens/card-vampira.jpg" alt="Personagem vampira">
+                </li>
+
+                <li class="personagem" id="Wolverine" data-name="wolverine" data-description="bla bla bla">
+                    <img src="./src/imagens/card-wolverine.jpg" alt="Personagem Wolverine">
+                </li>
+
+                <li class="personagem" id="noturno" data-name="noturno" data-description="bla bla bla">
+                    <img src="./src/imagens/card-noturno.jpg" alt="Personagem noturno">
+                </li>
+
+                <li class="personagem" id="magneto" data-name="magneto" data-description="bla bla bla">
+                    <img src="./src/imagens/card-magneto.jpg" alt="Personagem magneto">
+                </li>
+
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./src/imagens/card-ciclope.png" alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Ele tem o poder de disparar rajadas ópticas
+                    por um acidente que aconteceu com ele quando criança, mas não consegue controlá-los</p>
+            </div>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
